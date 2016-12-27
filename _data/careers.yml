@@ -1,17 +1,17 @@
 # careers section data
 - name:
-    detail: Nextcode
-    i18n: nextcode
+    detail: Cesar
+    i18n: cesar
   desc:
     detail: Now I am in Nextcode and develop website with Python code for genetic analysis.
-    i18n: nextcode_des
+    i18n: cesar_des
   date:
-    detail: Apr. 2016
-    i18n: nextcode_date
+    detail: May. 2010
+    i18n: cesar_date
   job:
-    detail: Python Developer
-    i18n: nextcode_job
-  icon: fa-plus-square
+    detail: Front-End Developer
+    i18n: cesar_job
+  icon: fa-rocket
 
 - name:
     detail: Netease Game
