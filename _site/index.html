@@ -1,659 +1,637 @@
-<!DOCTYPE html>
-<html>
 
-	
-		<head>
+<!-- Index Layout Start -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<!-- HEAD Start -->
+
+<head>
+  
+
+
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Em construção">
+  <meta name="author" content="Felipe de Albuquerque">
+  <meta name="keywords" content="smith, jones, personal, jekyll, theme">
+  <link rel="canonical" href="/personal-jekyll-theme/">
+  <title>{ Felipe de Albuquerque }</title>
 
-  <meta content="Front-End Engineer & Designer and jsdaybr organizer" name="description">
-  <meta name="keywords" content="Jack,Jalpc,blog,Jekyll,github,gh-pages">
-  <meta name="author" content="Felipe">
-  <title>Felipe de Albuquerque</title>
-  <!-- favicon -->
-  <link rel="shortcut icon" href="/static/img/favicon.ico">
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-  <!-- Third-party CSS -->
-  <link href="/bower_components/normalize-css/normalize.min.css" rel="stylesheet">
-  <link href="/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="/bower_components/animate.css/animate.min.css" rel="stylesheet">
-  <link href="/bower_components/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="/static/font-mfizz/font-mfizz.css" rel="stylesheet">
-  <!-- <link href="/bower_components/toastr/toastr.min.css" rel="stylesheet"> -->
-  <link href="/bower_components/jquery.gritter/css/jquery.gritter.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
-  <!-- <link href="/static/css/pygments.css" rel="stylesheet"> -->
-  <link href="/static/css/style.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="/personal-jekyll-theme/css/grayscale.css" rel="stylesheet">
+  
+  <link href="/personal-jekyll-theme/css/timeline.css" rel="stylesheet">
+  
 
-  <!-- Third-party scripts -->
-  <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
-  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="/bower_components/i18next/i18next.min.js"></script>
-  <script src="/bower_components/PACE/pace.min.js"></script>
-  <script src="/bower_components/wow/dist/wow.min.js"></script>
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/personal-jekyll-theme/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/personal-jekyll-theme/img/favicon.ico">
+  
 
-  <!-- Custom and plugin javascript -->
-  <!-- <script src="/static/js/inspinia.js"></script> -->
+  
 
-<!-- GrowingIO -->
+  
 
-  <script>
-    var _vds = _vds || [];
-    window._vds = _vds;
-    (function(){
-      _vds.push(['setAccountId', 'a49d4901c7853da9']);
-      (function() {
-        var vds = document.createElement('script');
-        vds.type='text/javascript';
-        vds.async = true;
-        vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(vds, s);
-      })();
-    })();
-  </script>
+
+  <!-- iOS Web App mode -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" sizes="36x36" href="/personal-jekyll-theme/img/web-app/icon-36p.png">
+  <link rel="apple-touch-icon" sizes="48x48" href="/personal-jekyll-theme/img/web-app/icon-48p.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/personal-jekyll-theme/img/web-app/icon-72p.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="/personal-jekyll-theme/img/web-app/icon-96p.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/personal-jekyll-theme/img/web-app/icon-144p.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/personal-jekyll-theme/img/web-app/icon-192p.png">
+
+  <!-- Android Web App mode -->
+
+  <link rel="manifest" href="/personal-jekyll-theme/manifest.json">
+
+
+
+
+  
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+  
+
 
 
 </head>
 
-	
+<!-- HEAD End -->
 
 
-<body id="page-top" class="landing-page">
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top"  data-offset="151">
 
-	
+    
+<!-- Navigation Start -->
 
-        <div class="navbar-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">Felipe de Albuquerque</span></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-                
-                    <li>
-                      <a class="page-scroll" href="#about-me">
-                        <span data-i18n="nav.about_me">About</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#career">
-                        <span data-i18n="nav.career">Career</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#skills">
-                        <span data-i18n="nav.skills">Skills</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#projects">
-                        <span data-i18n="nav.projects">Projects</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#blog">
-                        <span data-i18n="nav.blog">Blog</span>
-                      </a>
-                    </li>
-                
-                    <li>
-                      <a class="page-scroll" href="#links">
-                        <span data-i18n="nav.link">Links</span>
-                      </a>
-                    </li>
-                
-
-                
-                  <li>
-                    <a id="set_lang_pt-br" class="btn btn-sm set_pt-br" data-locale="pt-br">
-                      <img src="/static/img/flags/Brazil.png" height="16px" width="16px">
-                    </a>
-                  </li>
-                
-                  <li>
-                    <a id="set_lang_en" class="btn btn-sm set_en" data-locale="en">
-                      <img src="/static/img/flags/United-States.png" height="16px" width="16px">
-                    </a>
-                  </li>
-                
-                </ul>
-            </div>
-        </div>
-    </nav>
-</div>
-<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
-        <li data-target="#inSlider" data-slide-to="1"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <div class="container">
-                <div class="carousel-caption">
-                </div>
-                <div class="carousel-image wow zoomIn">
-                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back one"></div>
-        </div>
-        <div class="item">
-            <div class="container">
-                <div class="carousel-caption blank">
-                </div>
-            </div>
-            <!-- Set background for slide in css -->
-            <div class="header-back two"></div>
-        </div>
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+        <a class="navbar-brand page-scroll" href="#page-top">
+      
+          <div>
+            
+              <img src="/personal-jekyll-theme/img/black-lab-glass.ico" alt="">
+            
+            { Felipe de Albuquerque }
+          </div>
+        </a>
     </div>
-    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        
 
+          <!-- Scroll to section for each page in index -->
+          
+            <li>
+              <a class="page-scroll" href="#about"> About </a>
+            </li>
+          
+            <li>
+              <a class="page-scroll" href="#latest-post"> Blog </a>
+            </li>
+          
+            <li>
+              <a class="page-scroll" href="#timeline"> Timeline </a>
+            </li>
+          
+            <li>
+              <a class="page-scroll" href="#contact"> Contact </a>
+            </li>
+          
 
-  
-  <section id="about-me" class="features  " style="margin-top: 0px;">
-    <div class="container" id="i18_about_me">
-    <div class="row m-b-lg">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
-            <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
-        </div>
+        
+      </ul>
     </div>
-    <div class="row">
-        <!-- python -->
-        <div class="col-xs-2 wow fadeInLeft">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="fa fa-html5"></i>
-                </div>
-            </div>
-        </div>
-        <!-- linux -->
-        <div class="col-xs-2 wow fadeInLeft">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="fa fa-css3"></i>
-                </div>
-            </div>
-        </div>
-        <!-- avatar -->
-        <div class="col-xs-4">
-            <div class="team-member wow zoomIn">
-                <img src="/static/img/landing/felipe.jpg" height="110" width="110" class="img-responsive img-circle" alt="">
-                <h4><span class="navy">Albuquerque</span> Felipe</h4>
-                <ul class="list-inline social-icon">
-                    <li><a href="https://github.com/felipedealbuquerque" target="blank"><i class="fa fa-github"></i></a>
-                    </li>
-                    <li><a href="https://br.linkedin.com/in/felipedealbuquerque" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="mailto:fa@cesar.org.br"><i class="fa fa-envelope-o"></i></a>
-                    </li>
-                    <li><a href="http://localhost:4000/feed.xml" target="blank"><i class="fa fa-rss"></i></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- html -->
-        <div class="col-xs-2 wow fadeInRight">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="fa fa-code"></i>
-                </div>
-            </div>
-        </div>
-        <!-- docker -->
-        <div class="col-xs-2 wow fadeInRight">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <i class="icon-shell"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
-            <p><span data-i18n="about_me.des">Web designer e Front-End developer com mais de dez anos de experiência em desenvolvimento de softwares, entre aplicações web, mobile e para Tv Digital.</span></p>
-        </div>
-    </div>
-</div>
+  </div>
+</nav>
 
-  </section>
+<!-- Navigation End -->
 
-  
-  <section id="career" class="features  gray-section  timeline" style="margin-top: 0px;">
-    <div class="container" id="i18_career">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="career.my_career">My Career</span></h1>
-        </div>
-    </div>
-    <div class="row features-block">
-        <div class="col-lg-12">
-            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
-            
-            
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa fa-rocket"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow  rotateInUpRight ">
-                        <h2><span data-i18n="career.cesar">Cesar</span></h2>
-                        <p><span data-i18n="career.cesar_des">Now I am in Nextcode and develop website with Python code for genetic analysis. </span></p>
-                        <span class="vertical-date"><span data-i18n="career.cesar_date"> May. 2010 </span>
-                        <br/> <small><span data-i18n="career.cesar_job">Front-End Developer</span></small> </span>
-                    </div>
-                </div>
-            
-            
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa fa-gamepad"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow  rotateInUpLeft ">
-                        <h2><span data-i18n="career.netease">Netease Game</span></h2>
-                        <p><span data-i18n="career.netease_des">In Netease game, I learned game service system and use Python code for ops. </span></p>
-                        <span class="vertical-date"><span data-i18n="career.nextcode_date"> Jun. 2015 </span>
-                        <br/> <small><span data-i18n="career.netease_job">Dev Ops</span></small> </span>
-                    </div>
-                </div>
-            
-            
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa fa-cloud"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow  rotateInUpRight ">
-                        <h2><span data-i18n="career.ucloud">Ucloud</span></h2>
-                        <p><span data-i18n="career.ucloud_des">In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server. </span></p>
-                        <span class="vertical-date"><span data-i18n="career.ucloud_date"> Sep. 2013 </span>
-                        <br/> <small><span data-i18n="career.ucloud_job">Dev Ops</span></small> </span>
-                    </div>
-                </div>
-            
-            
-                <div class="vertical-timeline-block">
-                    <div class="vertical-timeline-icon navy-bg wow rotateIn">
-                        <i class="fa fa-book"></i>
-                    </div>
-                    <div class="vertical-timeline-content wow  rotateInUpLeft ">
-                        <h2><span data-i18n="career.college">Graduation</span></h2>
-                        <p><span data-i18n="career.college_des">At July 2013,I graduated from college and started my IT technology tour. </span></p>
-                        <span class="vertical-date"><span data-i18n="career.college_date"> Jul. 2013 </span>
-                        <br/> <small><span data-i18n="career.college_job">Student</span></small> </span>
-                    </div>
-                </div>
-            
-            </div>
-        </div>
-    </div>
-</div>
 
-  </section>
+    
+<!-- Intro Start -->
 
-  
-  <section id="skills" class="features  team" style="margin-top: 0px;">
+<header class="intro">
+  <div class="intro-body">
     <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center" id="i18_skills">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
-        </div>
-    </div>
-    <div class="row features-block">
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Python</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>HTML/CSS</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Linux/Shell</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="75" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>jQuery</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 85%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="85" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>AngularJS</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="80" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInRight ">
-                <p>Ionic</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInLeft ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-            
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 wow  fadeInLeft ">
-                <p>Vuejs</p>
-            </div>
-            <div class="col-lg-7 wow   fadeInRight ">
-                <div class="progress progress-bar-default">
-                    <div style="width: 65%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="65" role="progressbar" class="progress-bar">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        
-    </div>
-</div>
-
-  </section>
-
-  
-  <section id="projects" class="features  gray-section  project" style="margin-top: 0px;">
-    <div class="container" id="i18_projects">
-    <div class="row m-b-lg">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="projects.my_projects">My Projects</span></h1>
-        </div>
-    </div>
-    <div class="row">
-        
-            
-            
-            <div class="col-sm-6 wow  fadeInLeft ">
-            
-              <div class="team-member">
-                  <img src="/static/img/landing/saplatform.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="https://github.com/JiaKunUp/saplatform" target="blank"><span class="navy">Saplatform</a></span></h4>
-                  <p><span data-i18n="projects.saplatform">Saplatform is a automated service for operations, it has asset management, project release, database access function, it can control mass servers.</span></p>
-                  
-                  <ul class="list-inline">
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/saplatform" data-icon="octicon-star" data-count-href="/JiaKunUp/saplatform/stargazers" data-count-api="/repos/JiaKunUp/saplatform#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                      </li>
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/saplatform" data-icon="octicon-repo-forked" data-count-href="/JiaKunUp/saplatform/network/members" data-count-api="/repos/JiaKunUp/saplatform#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                      </li>
-                  </ul>
-                  
-              </div>
+      <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1 class="brand-heading">&nbsp;</h1>
+            <h1 class="brand-heading">&nbsp;</h1>
+            <span class="intro-text"><!--
+If you want to have a static message in your intro layout, disable the dynamic-typing in the _config.yml and write here your text
+-->
+</span>
+            <h5>&nbsp;</h5>
+            <a href="#about" class="page-scroll">
+              <img class="img-me" src="/personal-jekyll-theme/img/jetpacktocat.png" alt="">
+            </a>
           </div>
-      
-            
-            
-            <div class="col-sm-6 wow  fadeInRight ">
-            
-              <div class="team-member">
-                  <img src="/static/img/landing/jekyll.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="https://github.com/JiaKunUp/jalpc_jekyll_theme" target="blank"><span class="navy">Jalpc</a></span></h4>
-                  <p><span data-i18n="projects.jalpc">Jalpc is a simple, beautiful and swift theme for Jekyll. It has comprehensive function, it can be easily used and edited. It's adapted for many kinds devices.</span></p>
-                  
-                  <ul class="list-inline">
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/jalpc_jekyll_theme" data-icon="octicon-star" data-count-href="/JiaKunUp/jalpc_jekyll_theme/stargazers" data-count-api="/repos/JiaKunUp/jalpc_jekyll_theme#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                      </li>
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/jalpc_jekyll_theme" data-icon="octicon-repo-forked" data-count-href="/JiaKunUp/jalpc_jekyll_theme/network/members" data-count-api="/repos/JiaKunUp/jalpc_jekyll_theme#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                      </li>
-                  </ul>
-                  
-              </div>
-          </div>
-      
-            
-            
-            <div class="col-sm-6 wow  fadeInLeft ">
-            
-              <div class="team-member">
-                  <img src="/static/img/landing/angularjs.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="https://github.com/JiaKunUp/Jalpc-A" target="blank"><span class="navy">Jalpc-A</a></span></h4>
-                  <p><span data-i18n="projects.angularjs">It is a web font application written by Angularjs and deployed by Jekyll on github (gh-pages), the backend platform is Leancloud, you can use Parse as well.</span></p>
-                  
-                  <ul class="list-inline">
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/Jalpc-A" data-icon="octicon-star" data-count-href="/JiaKunUp/Jalpc-A/stargazers" data-count-api="/repos/JiaKunUp/Jalpc-A#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                      </li>
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/Jalpc-A" data-icon="octicon-repo-forked" data-count-href="/JiaKunUp/Jalpc-A/network/members" data-count-api="/repos/JiaKunUp/Jalpc-A#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                      </li>
-                  </ul>
-                  
-              </div>
-          </div>
-      
-            
-            
-            <div class="col-sm-6 wow  fadeInRight ">
-            
-              <div class="team-member">
-                  <img src="/static/img/landing/rsser.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="https://github.com/JiaKunUp/Rsser" target="blank"><span class="navy">Rsser</a></span></h4>
-                  <p><span data-i18n="projects.rsser">Rsser is an Ionic application, with this application we can read news and articles freely, you can add rss address from the given list and add it manually.</span></p>
-                  
-                  <ul class="list-inline">
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/Rsser" data-icon="octicon-star" data-count-href="/JiaKunUp/Rsser/stargazers" data-count-api="/repos/JiaKunUp/Rsser#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Star</a>
-                      </li>
-                      <li>
-                          <a class="github-button" href="https://github.com/JiaKunUp/Rsser" data-icon="octicon-repo-forked" data-count-href="/JiaKunUp/Rsser/network/members" data-count-api="/repos/JiaKunUp/Rsser#forks_count" data-count-aria-label="# forks on GitHub" aria-label="Star hydepress/jekyll-install on GitHub">Fork</a>
-                      </li>
-                  </ul>
-                  
-              </div>
-          </div>
-      
-            
-            
-                
-            <div class="col-sm-6 wow  fadeInLeft col-sm-offset-3 ">
-                
-            
-              <div class="team-member">
-                  <img src="/static/img/landing/familycode.png" class="img-responsive img-circle img-small" alt="">
-                  <h4><a href="https://github.com" target="blank"><span class="navy">FamilyCODE Wchat</a></span></h4>
-                  <p><span data-i18n="projects.familycode">This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.</span></p>
-                  
-              </div>
-          </div>
-      
-    </div>
-</div>
-<br>
-
-  </section>
-
-  
-  <section id="blog" class="features  testimonials navy-section" style="margin-top: 0px;">
-    <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center wow zoomIn" id="i18_blog">
-            <div style="height: 80px;"></div>
-            <a class="btn btn-lg btn-default btn-rounded btn-outline wow bounceIn" href="/blog/"><span data-i18n="blog.my_blog">My Blog</span></a>
-            <div style="height: 80px;"></div>
         </div>
     </div>
-</div>
+  </div>
+</header>
 
-  </section>
+<!-- Intro End -->
 
-  
-  <section id="links" class="features  gray-section  contact" style="margin-top: 0px;">
-    <div class="container" id="i18_link">
-    <div class="row m-b-lg">
-        <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="link.link">Link</span></h1>
-        </div>
-    </div>
-    <div class="row">
+
     
+      
         
+      
         
-        <div class="col-sm-4 wow  fadeInLeft ">
-        
-        <div class="team-member">
-            <h4><span class="navy">Celine</span> </h4>
-            <p>Painter.</p>
-            <ul class="list-inline social-icon">
-                <li><a href="http://angular.jack003.com" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:805963294@qq.com"><i class="fa fa-envelope-o"></i></a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    
-        
-        
-        <div class="col-sm-4 wow  zoomIn ">
-        
-        <div class="team-member">
-            <h4><span class="navy">Donate</span> Jalpc</h4>
-            <p>Support Jalpc</p>
-            <ul class="list-inline social-icon">
-                <li><a href="http://www.jack003.com/donate/" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:me@jack003.com"><i class="fa fa-envelope-o"></i></a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    
-        
-        
-            
-        <div class="col-sm-4 wow  zoomIn ">
-            
-        
-        <div class="team-member">
-            <h4><span class="navy">Lucas</span> Schejtman</h4>
-            <p>Full Stack Developer.</p>
-            <ul class="list-inline social-icon">
-                <li><a href="http://lucasschejtman.github.io" target="blank"><i class="fa fa-link"></i></a>
-                </li>
-                <li><a href="mailto:lucas.schejtman@gmail.com"><i class="fa fa-envelope-o"></i></a>
-                </li>
-            </ul>
-        </div>
-        </div>
-    
+          
+<!-- About Start -->
+
+<section id="about" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2 id="about">About</h2>
+
+<p>Github’s Octocat was designed by Simon Oxley, alongside the white bird Twitter used (before they received a proper logo) as part of a usual routine of cranking out images for iStock. GitHub saw it, and wanted it, presumably under the notion that it can represent how complex code combines to create peculiar things, much like the octopuss… except the CEO of GitHub called it an octocat, and it has been the octocat since <a href="https://www.quora.com/GitHub/What-is-the-story-behind-GitHub%E2%80%99s-octocat-mascot" target="_blank">[via]</a>.</p>
+
+<p><small>
+Octocat is Github’s logo and trademark and here is used to illustrate a fictional character (John Smith) that used the <em>{ Personal }</em> Jekyll Theme to build his website.
+</small></p>
+
+<p>Support the repo by starring or forking it!</p>
+
+<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&amp;repo=personal-jekyll-theme&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+<iframe src="https://ghbtns.com/github-btn.html?user=panossakkos&amp;repo=personal-jekyll-theme&amp;type=fork&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
     </div>
+  </div>
+</section>
+
+<!-- About End -->
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+<!-- Latest Post Preview Start -->
+
+<section id="latest-post" class="container content-section text-center">
     <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg">
-            <p id="jalpc_site_pv"><strong>&copy; 2016 Felipe de Albuquerque</strong></p>
-        </div>
+      <div class="col-md-10 col-md-offset-1">
+
+        <h2 id="latest-blog-post">Latest Blog Post</h2>
+
+
+        
+        <h4> <strong> 27 Jun 2015 </strong>
+          <small>.
+            <a class="category" href="/personal-jekyll-theme/categories/tech.html">
+              tech
+            </a>
+          .</small>
+          <strong> <a href="/personal-jekyll-theme/tech/2015/06/27/welcome.html">Welcome to { Personal } Jekyll Theme! </a> </strong>
+          <small> <a href="/personal-jekyll-theme/tech/2015/06/27/welcome.html#disqus_thread">Comments</a></small>
+        </h4>
+
+        <section class="text-justify">
+          <p>Click the view more posts link bellow, to see the currently available post-tutorials to help you get your { Personal } website up and running quicker!</p>
+
+<p>Note that every time you update the site configuration (_config.yml), you will need
+to cancel the serving (Ctr + C) and serve the website again.</p>
+
+<p>Any contributions, feedback or issues to the repo are more than welcome!</p>
+
+        </section>
+
+        <h4><a href="/personal-jekyll-theme/blog/">Archive</a></h4>
+
+      </div>
     </div>
-</div>
+</section>
 
-  </section>
+<!-- Latest Post Preview End -->
 
-<iframe src="http://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+<!-- Timeline Start -->
+
+<section id="timeline" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <h2 id="timeline">Timeline</h2>
+
+
+      <ul class="timeline">
+
+        
+          
+          
+
+          <li class="
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/personal-jekyll-theme/img/timeline/spidertocat.png" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>September 2013 - Today</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Saving the neighborhood!</p>
+
+              </div>
+            </div>
+          </li>
+        
+          
+          
+
+          <li class="
+          
+            timeline-inverted
+          
+          ">
+            <div class="timeline-image">
+              <img class="img-circle img-responsive" src="/personal-jekyll-theme/img/timeline/baracktocat.jpg" alt="">
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>September 2007 - August 2013</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Started coding</p>
+
+              </div>
+            </div>
+          </li>
+        
+
+        <li class="timeline-inverted">
+          <div class="timeline-image">
+            <img class="img-circle img-responsive" src="/personal-jekyll-theme/img/timeline/default.png" alt="">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline End -->
+
+        
+      
+        
+      
+        
+      
+        
+      
+    
+      
+        
+      
+        
+      
+        
+          
+<!-- Contact Start -->
+
+<section id="contact" class="container content-section text-center">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+
+      <h2 id="contact">Contact</h2>
+
+<p>Drop me an email if you are interested in me coding for you or saving your neighborhood!</p>
+
+
+      
+        
+          
+            <p>
+            <script>
+              function join_at_email(user, domain){
+              return (user && domain)?(user + "@" + domain):"";
+              }
+              document.write('<a href="mailto:'
+              + join_at_email( "your", "email.here" )
+              + '">'
+              + join_at_email( "your", "email.here" )
+              + '</a>'
+              );
+              </script>
+            </p>
+        
+      
+
+    </div>
+  </div>
+</section>
+
+<!-- Contact End -->
+
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    <!-- Footer Start -->
+
+<footer>
+
+    <!-- Social Buttons Start -->
+
+<ul class="list-inline social-buttons">
+    
+    <li><a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+    
+    <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+    
+    <li><a href="https://github.com/PanosSakkos/personal-jekyll-theme" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+    
+    <li><a href="https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi" target="_blank"><i class="fa fa-bitcoin fa-fw"></i></a></li>
+    
+    <li><a href="/feed.xml" target="_blank"><i class="fa fa-rss fa-fw"></i></a></li>
+    
+    
+    <li><a href="https://keybase.io/johnsmith" target="_blank"><i class="fa fa-key fa-fw"></i></a></li>
+    
+</ul>
+
+<!-- Social Buttons End -->
+
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; Felipe de Albuquerque 2017</p>
+        
+        <p style="font-size: 16px;"><a href="https://keybase.io/johnsmith" target="_blank"><i
+                class="fa fa-key"></i> johnsmith on Keybase</a></p>
+        
+    </div>
+</footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
+
+
+    
+<!-- Javascript Start -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<!--* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
+<script>
+function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
+$(document).ready(toggleNavCollapse);
+$(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+</script>
 
 
 
-	
-		<script src="/static/js/scroll.js"></script>
-<script src="/static/js/localization.js"></script>
-<script async src="/static/js/count.js"></script>
-
-<!-- Baidu analytics -->
-
-
-<!-- Google analytics -->
+  <!-- Collapse navbar when navbar-brand is clicked -->
 
   <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-73784599-1', 'auto');
-    ga('send', 'pageview');
-
+  $(function(){$(".navbar-brand").click(function(){$(".collapse.in")&&$(".collapse.in").animate({height:"1px"},500,function(){$(".collapse.in").removeClass("in")})})});
   </script>
 
 
-	
 
-</body>
+
+
+
+
+
+
+
+
+
+
+  <!-- Dynamic Typing Start -->
+
+  <script type="text/javascript" src="/personal-jekyll-theme/js/typed.min.js"></script>
+  <script type="text/javascript">
+
+  var myQuotes =  new Array();
+  
+    myQuotes.push("The lower you fall, the higher you'll fly.");
+  
+    myQuotes.push("Where’s your will to be weird?");
+  
+
+  function shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex ;
+
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+  }
+
+  
+    shuffle(myQuotes)
+  
+
+    $(".intro-text").typed({
+      strings: myQuotes,
+      typeSpeed: 10,
+      backDelay: 5000,
+      startDelay: 200,
+      loop: true,
+      loopCount: false,
+      cursorChar: "|"
+    });
+  </script>
+
+  <!-- Dynamic Typing End  -->
+
+
+
+<script>
+function addTohistory() {
+  if (!window.location.host.startsWith("127.0.0.1")) {
+    history.pushState({}, '', 'http://localhost:4000/personal-jekyll-theme/');
+  }
+}
+</script>
+
+<!-- Gesture Navigation / Swipe Instruction Start -->
+
+
+  
+
+  
+
+  
+
+  
+
+<!-- Gesture Navigation / Swipe Instruction End -->
+
+
+
+<!-- Javascript End -->
+
+
+  </body>
 </html>
+
+<!-- Index Layout End -->
