@@ -33,21 +33,19 @@ color:
 footer:
   copyright: Felipe Albuquerque
   location: Brazil
-  social: Around the Web
+  social: Redes Sociais
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
+    url: http://twitter.com/felipedeolinda
+  - title: linkedin
+    url: http://www.linkedin.com/in/felipedealbuquerque/
+  - title: instagram
+    url: http://www.instagram.com/felipedeolinda/
   - title: github
-    url: https://github.com/felipedealbuquerque
+    url: http://github.com/felipedealbuquerque
 
 # Postal address (add as many lines as necessary)
 address:
