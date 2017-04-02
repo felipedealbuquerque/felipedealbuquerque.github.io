@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2015-10-17
+img: devfestne-2015.jpg
+alt: Google Dev Fest Nordeste
+project-date: 10/17/2015
+client: Google
+category: Speaker
+description: <a href="https://2015.devfestne.com.br/schedule/#session-221">Dev Fest NE</a> é um evento promovido pelo Google. Foi uma honra ser convidado para falar sobre Robótica com JavaScript.
+
+---

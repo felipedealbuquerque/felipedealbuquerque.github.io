@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 1
+date: 2015-05-27
+img: jsconfus2015-felipe.jpg
+alt: Palestra no JSConf US
+project-date: 5/27/2015
+client: JS Conf US 2015
+category: Speaker
+description: <a href="http://2015.jsconf.us/speakers.html#de%20albuquerque">JSConf US 2015</a> é um dos maiores e mais respeitados eventos sobre JavaScript. Tive o privilégio de ser selecionado entre mais de 750 submissões ao redor do mundo. Falei sobre como desenvolver aplicações acessíveis.
+
+---
