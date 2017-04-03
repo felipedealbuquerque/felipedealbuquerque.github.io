@@ -90,6 +90,12 @@ header .container {
     padding-bottom: 50px;
 }
 
+@media screen and (min-width: 768px) {
+    header .container {
+        padding-top: 100px;
+    }
+}
+
 header img {
     display: block;
     margin: 0 auto 20px;
