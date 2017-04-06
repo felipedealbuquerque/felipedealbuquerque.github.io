@@ -101,6 +101,8 @@ header .container .page-scroll a {
     color: #2c3e50;
 }
 
+
+
 header img {
     display: block;
     margin: 0 auto 20px;
@@ -193,6 +195,10 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
+}
+
+.primary-link-ct a {
+    color: #2c3e50;
 }
 
 @media(max-width:767px) {

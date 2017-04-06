@@ -5,8 +5,8 @@
     <description>Web designer e Front-End developer com mais de dez anos de experiência em desenvolvimento de softwares, entre aplicações web, mobile e para Tv Digital.'</description>
     <link>http://localhost:4000/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 05 Apr 2017 19:53:52 -0300</pubDate>
-    <lastBuildDate>Wed, 05 Apr 2017 19:53:52 -0300</lastBuildDate>
+    <pubDate>Wed, 05 Apr 2017 23:57:16 -0300</pubDate>
+    <lastBuildDate>Wed, 05 Apr 2017 23:57:16 -0300</lastBuildDate>
     <generator>Jekyll v3.3.1</generator>
     
       <item>
@@ -34,6 +34,18 @@
       </item>
     
       <item>
+        <title>Faculdade Aeso</title>
+        <description>Plestra na Faculdade integrada Barros Melo, fui convidado para falar sobre desenvolvimento de aplicações acessíveis com JavaScript.</description>
+        <pubDate>Sat, 17 Oct 2015 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/speaker/2015/10/17/Faculdade-aeso/</link>
+        <guid isPermaLink="true">http://localhost:4000/speaker/2015/10/17/Faculdade-aeso/</guid>
+        
+        
+        <category>Speaker</category>
+        
+      </item>
+    
+      <item>
         <title>Jsconf Us 2015</title>
         <description>&lt;a href=&quot;http://2015.jsconf.us/speakers.html#de%20albuquerque&quot;&gt;JSConf US 2015&lt;/a&gt; é um dos maiores e mais respeitados eventos sobre JavaScript. Tive o privilégio de ser selecionado entre mais de 750 submissões ao redor do mundo. Falei sobre como desenvolver aplicações acessíveis.</description>
         <pubDate>Wed, 27 May 2015 00:00:00 -0300</pubDate>
@@ -46,66 +58,6 @@
       </item>
     
       <item>
-        <title>Project 2</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/17/project-2/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 3</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/16/project-3/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 4</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/15/project-4/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 6</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/15/project-6/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Project 5</title>
-        <description>Use this area of the page to describe your project. The icon above is part of a free icon set by &lt;a href=&quot;https://sellfy.com/p/8Q9P/jV3VZ/&quot;&gt;Flat Icons&lt;/a&gt;. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0300</pubDate>
-        <link>http://localhost:4000/web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">http://localhost:4000/web%20development/2014/07/14/project-5/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
         <title>Campus Party Recife 2013</title>
         <description>&lt;a href=&quot;http://blog.campus-party.com.br/post/54609958957/um-dos-grandes-desafios-para-os-web-designers-de&quot;&gt;Campus Party Recife 2013&lt;/a&gt; foi a primeira grande palestra que fiz e fui convidado para falar sobre Responsive Web Design.</description>
         <pubDate>Fri, 19 Jul 2013 00:00:00 -0300</pubDate>
@@ -114,6 +66,42 @@
         
         
         <category>Speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Microsoft Certify</title>
+        <description>Em 2012 fiz a prova da Microsoft sobre JavaScript, HTML5 e CSS3</description>
+        <pubDate>Thu, 20 Dec 2012 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/certification/2012/12/20/microsoft-certify/</link>
+        <guid isPermaLink="true">http://localhost:4000/certification/2012/12/20/microsoft-certify/</guid>
+        
+        
+        <category>Certification</category>
+        
+      </item>
+    
+      <item>
+        <title>Campus Party Recife 2015</title>
+        <description>&lt;a href=&quot;http://campuse.ro/events/campus-party-recife-2015/talk/robotic-e-javascript-amor-a-primeira-vista/&quot;&gt;Campus Party Recife 2015&lt;/a&gt; JavaScript, linguagem de programação feita para rodar apenas em browsers, mas hoje várias plataformas e coisas podem interagir com ele, e uma das coisas mais incríveis e divertidas que o JavaScript pode fazer, é se comunicar diretamente com o mundo real, é isso mesmo, podemos programar micro-controladores como o Arduino ou Raspberry pi usando JavaScript. Nesta palestra vamos conhecer a parte mais divertida e emocional sobre a programação de robos e conceitos de IoT. Apresentaremos para vocês o “Guide Dog”, que é um robozinho que estou construindo com um kit básico de Arduíno e com o framework JavaScript Johnny-five.io</description>
+        <pubDate>Wed, 12 Dec 2012 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/speaker/2012/12/12/campus-party-recife-2015/</link>
+        <guid isPermaLink="true">http://localhost:4000/speaker/2012/12/12/campus-party-recife-2015/</guid>
+        
+        
+        <category>Speaker</category>
+        
+      </item>
+    
+      <item>
+        <title>Projeto Hanium</title>
+        <description>Professor orientador do Projeto Hanium realizado em parceria entre o C.E.S.A.R (Centro de Estudos e Sistemas Avançados do Recife) e o Governo da Coréia do Sul. Cujo objetivo principal deste projeto é dar aos alunos a capacidade de construir aplicativos que consomem dados abertos.</description>
+        <pubDate>Wed, 12 Dec 2012 00:00:00 -0300</pubDate>
+        <link>http://localhost:4000/professor/2012/12/12/projeto-hanium/</link>
+        <guid isPermaLink="true">http://localhost:4000/professor/2012/12/12/projeto-hanium/</guid>
+        
+        
+        <category>Professor</category>
         
       </item>
     
