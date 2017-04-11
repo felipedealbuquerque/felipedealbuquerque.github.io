@@ -1,7 +1,7 @@
 ---
 layout: default
 modal-id: 7
-date: 2012-12-12
+date: 2015-07-26
 img: campus-party-2015.jpg
 alt: Campus Party 2015
 project-date: 2015/07/26
